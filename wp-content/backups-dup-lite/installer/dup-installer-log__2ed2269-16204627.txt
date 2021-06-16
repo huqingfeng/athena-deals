@@ -1,0 +1,718 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 08:52:47
+* VERSION: 1.4.1
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.4.20                                |7.0.0
+OS__________________: Linux                                 |WINNT
+CREATED_____________: 2021-06-16 20:46:27
+WP VERSION__________: 5.7.2
+DUP VERSION_________: 1.4.1
+DB__________________: 5.7.33
+DB TABLES___________: 51
+DB ROWS_____________: 2,259
+DB FILE SIZE________: 18.3MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.0.0 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.17 (Win64) PHP/7.0.0
+DOC ROOT____________: "C:/work_space/athena-deals"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://127.0.0.1/athena-deals/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "ziparchive"
+SET DIR PERMS_______: 0
+DIR PERMS VALUE_____: 644
+SET FILE PERMS______: 0
+FILE PERMS VALUE____: 755
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "C:/work_space/athena-deals/20210616_athenadeals_[HASH]_20210616204627_archive.zip"
+SIZE________________: 72.33MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+
+
+START ZIP FILE EXTRACTION STANDARD >>> 
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "C:/work_space/athena-deals/20210616_athenadeals_[HASH]_20210616204627_archive.zip"
+SIZE________________: 72.33MBFile timestamp set to Current: 2021-06-16 20:53:41
+<<< ZipArchive Unzip Complete: true
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+
+PERMISSION UPDATES: None Applied
+
+STEP-1 COMPLETE @ 08:53:41 - RUNTIME: 54.3317 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 08:56:38
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTION CREATION___: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.7.9 -- Build Server: 5.7.33
+FILE SIZE:	dup-database__[HASH].sql (11.36MB)
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE:	STRICT_ALL_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER
+NEW SQL FILE:	[C:/work_space/athena-deals/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+
+NOTICE: This servers version [5.7.9] is less than the build version [5.7.33].  
+If you find issues after testing your site please referr to this FAQ item.
+https://snapcreek.com/duplicator/docs/faqs-tech/#faq-installer-260-q
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+DB FUNCTIONS:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	451
+
+ipixqnjfactionscheduler_actions: (54)
+ipixqnjfactionscheduler_claims: (0)
+ipixqnjfactionscheduler_groups: (2)
+ipixqnjfactionscheduler_logs: (156)
+ipixqnjfaws_cache: (1)
+ipixqnjfaws_index: (0)
+ipixqnjfcartflows_ca_cart_abandonment: (0)
+ipixqnjfcartflows_ca_email_history: (0)
+ipixqnjfcartflows_ca_email_templates: (3)
+ipixqnjfcartflows_ca_email_templates_meta: (15)
+ipixqnjfcommentmeta: (0)
+ipixqnjfcomments: (0)
+ipixqnjfduplicator_packages: (0)
+ipixqnjflinks: (0)
+ipixqnjfoptions: (436)
+ipixqnjfpostmeta: (1412)
+ipixqnjfposts: (235)
+ipixqnjfterm_relationships: (2)
+ipixqnjfterm_taxonomy: (17)
+ipixqnjftermmeta: (2)
+ipixqnjfterms: (17)
+ipixqnjfusermeta: (30)
+ipixqnjfusers: (1)
+ipixqnjfwc_admin_note_actions: (40)
+ipixqnjfwc_admin_notes: (39)
+ipixqnjfwc_category_lookup: (9)
+ipixqnjfwc_customer_lookup: (0)
+ipixqnjfwc_download_log: (0)
+ipixqnjfwc_order_coupon_lookup: (0)
+ipixqnjfwc_order_product_lookup: (0)
+ipixqnjfwc_order_stats: (0)
+ipixqnjfwc_order_tax_lookup: (0)
+ipixqnjfwc_product_meta_lookup: (0)
+ipixqnjfwc_reserved_stock: (0)
+ipixqnjfwc_tax_rate_classes: (2)
+ipixqnjfwc_webhooks: (0)
+ipixqnjfwoocommerce_api_keys: (0)
+ipixqnjfwoocommerce_attribute_taxonomies: (0)
+ipixqnjfwoocommerce_downloadable_product_permissions: (0)
+ipixqnjfwoocommerce_log: (0)
+ipixqnjfwoocommerce_order_itemmeta: (0)
+ipixqnjfwoocommerce_order_items: (0)
+ipixqnjfwoocommerce_payment_tokenmeta: (0)
+ipixqnjfwoocommerce_payment_tokens: (0)
+ipixqnjfwoocommerce_sessions: (1)
+ipixqnjfwoocommerce_shipping_zone_locations: (0)
+ipixqnjfwoocommerce_shipping_zone_methods: (0)
+ipixqnjfwoocommerce_shipping_zones: (0)
+ipixqnjfwoocommerce_tax_rate_locations: (0)
+ipixqnjfwoocommerce_tax_rates: (0)
+ipixqnjfwpforms_tasks_meta: (18)
+Removed '134' cache/transient rows
+
+INSERT DATA RUNTIME: 4.6394 sec.
+STEP-2 COMPLETE @ 08:56:42 - RUNTIME: 4.6569 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 08:56:54
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "AthenaDeals"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/homepages/37/d867365955/htdocs/clickandbuilds/eBayDeals"
+path_new______________: "C:/work_space/athena-deals"
+siteurl_______________: "http://127.0.0.1/athena-deals"
+url_old_______________: "http://theathenaworldwide.com"
+url_new_______________: "http://127.0.0.1/athena-deals"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "ipixqnjfactionscheduler_actions"_________________[ROWS:    54][PG:   1][SCAN:text columns]
+	SEARCH  1:"/homepages/37/d867365955/htdocs/clickandbuilds/eBayDeals" => "C:/work_space/athena-deals"
+	SEARCH  2:"\/homepages\/37\/d867365955\/htdocs\/clickandbuilds\/eBayDeals" => "C:\/work_space\/athena-deals"
+	SEARCH  3:"%2Fhomepages%2F37%2Fd867365955%2Fhtdocs%2Fclickandbuilds%2FeBayDeals" => "C%3A%2Fwork_space%2Fathena-deals"
+	SEARCH  4:"\homepages\37\d867365955\htdocs\clickandbuilds\eBayDeals" => "C:/work_space/athena-deals"
+	SEARCH  5:"\\homepages\\37\\d867365955\\htdocs\\clickandbuilds\\eBayDeals" => "C:\/work_space\/athena-deals"
+	SEARCH  6:"%5Chomepages%5C37%5Cd867365955%5Chtdocs%5Cclickandbuilds%5CeBayDeals" => "C%3A%2Fwork_space%2Fathena-deals"
+	SEARCH  7:"//theathenaworldwide.com" ========================> "//127.0.0.1/athena-deals"
+	SEARCH  8:"\/\/theathenaworldwide.com" ======================> "\/\/127.0.0.1\/athena-deals"
+	SEARCH  9:"%2F%2Ftheathenaworldwide.com" ====================> "%2F%2F127.0.0.1%2Fathena-deals"
+	SEARCH 10:"//www.theathenaworldwide.com" ====================> "//127.0.0.1/athena-deals"
+	SEARCH 11:"\/\/www.theathenaworldwide.com" ==================> "\/\/127.0.0.1\/athena-deals"
+	SEARCH 12:"%2F%2Fwww.theathenaworldwide.com" ================> "%2F%2F127.0.0.1%2Fathena-deals"
+	SEARCH 13:"https://127.0.0.1/athena-deals" ==================> "http://127.0.0.1/athena-deals"
+	SEARCH 14:"https:\/\/127.0.0.1\/athena-deals" ===============> "http:\/\/127.0.0.1\/athena-deals"
+	SEARCH 15:"https%3A%2F%2F127.0.0.1%2Fathena-deals" ==========> "http%3A%2F%2F127.0.0.1%2Fathena-deals"
+
+EVALUATE TABLE: "ipixqnjfactionscheduler_claims"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ipixqnjfactionscheduler_groups"__________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/homepages/37/d867365955/htdocs/clickandbuilds/eBayDeals" => "C:/work_space/athena-deals"
+	SEARCH  2:"\/homepages\/37\/d867365955\/htdocs\/clickandbuilds\/eBayDeals" => "C:\/work_space\/athena-deals"
+	SEARCH  3:"%2Fhomepages%2F37%2Fd867365955%2Fhtdocs%2Fclickandbuilds%2FeBayDeals" => "C%3A%2Fwork_space%2Fathena-deals"
+	SEARCH  4:"\homepages\37\d867365955\htdocs\clickandbuilds\eBayDeals" => "C:/work_space/athena-deals"
+	SEARCH  5:"\\homepages\\37\\d867365955\\htdocs\\clickandbuilds\\eBayDeals" => "C:\/work_space\/athena-deals"
+	SEARCH  6:"%5Chomepages%5C37%5Cd867365955%5Chtdocs%5Cclickandbuilds%5CeBayDeals" => "C%3A%2Fwork_space%2Fathena-deals"
+	SEARCH  7:"//theathenaworldwide.com" ========================> "//127.0.0.1/athena-deals"
+	SEARCH  8:"\/\/theathenaworldwide.com" ======================> "\/\/127.0.0.1\/athena-deals"
+	SEARCH  9:"%2F%2Ftheathenaworldwide.com" ====================> "%2F%2F127.0.0.1%2Fathena-deals"
+	SEARCH 10:"//www.theathenaworldwide.com" ====================> "//127.0.0.1/athena-deals"
+	SEARCH 11:"\/\/www.theathenaworldwide.com" ==================> "\/\/127.0.0.1\/athena-deals"
+	SEARCH 12:"%2F%2Fwww.theathenaworldwide.com" ================> "%2F%2F127.0.0.1%2Fathena-deals"
+	SEARCH 13:"https://127.0.0.1/athena-deals" ==================> "http://127.0.0.1/athena-deals"
+	SEARCH 14:"https:\/\/127.0.0.1\/athena-deals" ===============> "http:\/\/127.0.0.1\/athena-deals"
+	SEARCH 15:"https%3A%2F%2F127.0.0.1%2Fathena-deals" ==========> "http%3A%2F%2F127.0.0.1%2Fathena-deals"
+
+EVALUATE TABLE: "ipixqnjfactionscheduler_logs"____________________[ROWS:   156][PG:   1][SCAN:text columns]
+	SEARCH  1:"/homepages/37/d867365955/htdocs/clickandbuilds/eBayDeals" => "C:/work_space/athena-deals"
+	SEARCH  2:"\/homepages\/37\/d867365955\/htdocs\/clickandbuilds\/eBayDeals" => "C:\/work_space\/athena-deals"
+	SEARCH  3:"%2Fhomepages%2F37%2Fd867365955%2Fhtdocs%2Fclickandbuilds%2FeBayDeals" => "C%3A%2Fwork_space%2Fathena-deals"
+	SEARCH  4:"\homepages\37\d867365955\htdocs\clickandbuilds\eBayDeals" => "C:/work_space/athena-deals"
+	SEARCH  5:"\\homepages\\37\\d867365955\\htdocs\\clickandbuilds\\eBayDeals" => "C:\/work_space\/athena-deals"
+	SEARCH  6:"%5Chomepages%5C37%5Cd867365955%5Chtdocs%5Cclickandbuilds%5CeBayDeals" => "C%3A%2Fwork_space%2Fathena-deals"
+	SEARCH  7:"//theathenaworldwide.com" ========================> "//127.0.0.1/athena-deals"
+	SEARCH  8:"\/\/theathenaworldwide.com" ======================> "\/\/127.0.0.1\/athena-deals"
+	SEARCH  9:"%2F%2Ftheathenaworldwide.com" ====================> "%2F%2F127.0.0.1%2Fathena-deals"
+	SEARCH 10:"//www.theathenaworldwide.com" ====================> "//127.0.0.1/athena-deals"
+	SEARCH 11:"\/\/www.theathenaworldwide.com" ==================> "\/\/127.0.0.1\/athena-deals"
+	SEARCH 12:"%2F%2Fwww.theathenaworldwide.com" ================> "%2F%2F127.0.0.1%2Fathena-deals"
+	SEARCH 13:"https://127.0.0.1/athena-deals" ==================> "http://127.0.0.1/athena-deals"
+	SEARCH 14:"https:\/\/127.0.0.1\/athena-deals" ===============> "http:\/\/127.0.0.1\/athena-deals"
+	SEARCH 15:"https%3A%2F%2F127.0.0.1%2Fathena-deals" ==========> "http%3A%2F%2F127.0.0.1%2Fathena-deals"
+
+EVALUATE TABLE: "ipixqnjfaws_cache"_______________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/homepages/37/d867365955/htdocs/clickandbuilds/eBayDeals" => "C:/work_space/athena-deals"
+	SEARCH  2:"\/homepages\/37\/d867365955\/htdocs\/clickandbuilds\/eBayDeals" => "C:\/work_space\/athena-deals"
+	SEARCH  3:"%2Fhomepages%2F37%2Fd867365955%2Fhtdocs%2Fclickandbuilds%2FeBayDeals" => "C%3A%2Fwork_space%2Fathena-deals"
+	SEARCH  4:"\homepages\37\d867365955\htdocs\clickandbuilds\eBayDeals" => "C:/work_space/athena-deals"
+	SEARCH  5:"\\homepages\\37\\d867365955\\htdocs\\clickandbuilds\\eBayDeals" => "C:\/work_space\/athena-deals"
+	SEARCH  6:"%5Chomepages%5C37%5Cd867365955%5Chtdocs%5Cclickandbuilds%5CeBayDeals" => "C%3A%2Fwork_space%2Fathena-deals"
+	SEARCH  7:"//theathenaworldwide.com" ========================> "//127.0.0.1/athena-deals"
+	SEARCH  8:"\/\/theathenaworldwide.com" ======================> "\/\/127.0.0.1\/athena-deals"
+	SEARCH  9:"%2F%2Ftheathenaworldwide.com" ====================> "%2F%2F127.0.0.1%2Fathena-deals"
+	SEARCH 10:"//www.theathenaworldwide.com" ====================> "//127.0.0.1/athena-deals"
+	SEARCH 11:"\/\/www.theathenaworldwide.com" ==================> "\/\/127.0.0.1\/athena-deals"
+	SEARCH 12:"%2F%2Fwww.theathenaworldwide.com" ================> "%2F%2F127.0.0.1%2Fathena-deals"
+	SEARCH 13:"https://127.0.0.1/athena-deals" ==================> "http://127.0.0.1/athena-deals"
+	SEARCH 14:"https:\/\/127.0.0.1\/athena-deals" ===============> "http:\/\/127.0.0.1\/athena-deals"
+	SEARCH 15:"https%3A%2F%2F127.0.0.1%2Fathena-deals" ==========> "http%3A%2F%2F127.0.0.1%2Fathena-deals"
+
+EVALUATE TABLE: "ipixqnjfaws_index"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ipixqnjfcartflows_ca_cart_abandonment"___________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ipixqnjfcartflows_ca_email_history"______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ipixqnjfcartflows_ca_email_templates"____________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/homepages/37/d867365955/htdocs/clickandbuilds/eBayDeals" => "C:/work_space/athena-deals"
+	SEARCH  2:"\/homepages\/37\/d867365955\/htdocs\/clickandbuilds\/eBayDeals" => "C:\/work_space\/athena-deals"
+	SEARCH  3:"%2Fhomepages%2F37%2Fd867365955%2Fhtdocs%2Fclickandbuilds%2FeBayDeals" => "C%3A%2Fwork_space%2Fathena-deals"
+	SEARCH  4:"\homepages\37\d867365955\htdocs\clickandbuilds\eBayDeals" => "C:/work_space/athena-deals"
+	SEARCH  5:"\\homepages\\37\\d867365955\\htdocs\\clickandbuilds\\eBayDeals" => "C:\/work_space\/athena-deals"
+	SEARCH  6:"%5Chomepages%5C37%5Cd867365955%5Chtdocs%5Cclickandbuilds%5CeBayDeals" => "C%3A%2Fwork_space%2Fathena-deals"
+	SEARCH  7:"//theathenaworldwide.com" ========================> "//127.0.0.1/athena-deals"
+	SEARCH  8:"\/\/theathenaworldwide.com" ======================> "\/\/127.0.0.1\/athena-deals"
+	SEARCH  9:"%2F%2Ftheathenaworldwide.com" ====================> "%2F%2F127.0.0.1%2Fathena-deals"
+	SEARCH 10:"//www.theathenaworldwide.com" ====================> "//127.0.0.1/athena-deals"
+	SEARCH 11:"\/\/www.theathenaworldwide.com" ==================> "\/\/127.0.0.1\/athena-deals"
+	SEARCH 12:"%2F%2Fwww.theathenaworldwide.com" ================> "%2F%2F127.0.0.1%2Fathena-deals"
+	SEARCH 13:"https://127.0.0.1/athena-deals" ==================> "http://127.0.0.1/athena-deals"
+	SEARCH 14:"https:\/\/127.0.0.1\/athena-deals" ===============> "http:\/\/127.0.0.1\/athena-deals"
+	SEARCH 15:"https%3A%2F%2F127.0.0.1%2Fathena-deals" ==========> "http%3A%2F%2F127.0.0.1%2Fathena-deals"
+
+EVALUATE TABLE: "ipixqnjfcartflows_ca_email_templates_meta"_______[ROWS:    15][PG:   1][SCAN:text columns]
+	SEARCH  1:"/homepages/37/d867365955/htdocs/clickandbuilds/eBayDeals" => "C:/work_space/athena-deals"
+	SEARCH  2:"\/homepages\/37\/d867365955\/htdocs\/clickandbuilds\/eBayDeals" => "C:\/work_space\/athena-deals"
+	SEARCH  3:"%2Fhomepages%2F37%2Fd867365955%2Fhtdocs%2Fclickandbuilds%2FeBayDeals" => "C%3A%2Fwork_space%2Fathena-deals"
+	SEARCH  4:"\homepages\37\d867365955\htdocs\clickandbuilds\eBayDeals" => "C:/work_space/athena-deals"
+	SEARCH  5:"\\homepages\\37\\d867365955\\htdocs\\clickandbuilds\\eBayDeals" => "C:\/work_space\/athena-deals"
+	SEARCH  6:"%5Chomepages%5C37%5Cd867365955%5Chtdocs%5Cclickandbuilds%5CeBayDeals" => "C%3A%2Fwork_space%2Fathena-deals"
+	SEARCH  7:"//theathenaworldwide.com" ========================> "//127.0.0.1/athena-deals"
+	SEARCH  8:"\/\/theathenaworldwide.com" ======================> "\/\/127.0.0.1\/athena-deals"
+	SEARCH  9:"%2F%2Ftheathenaworldwide.com" ====================> "%2F%2F127.0.0.1%2Fathena-deals"
+	SEARCH 10:"//www.theathenaworldwide.com" ====================> "//127.0.0.1/athena-deals"
+	SEARCH 11:"\/\/www.theathenaworldwide.com" ==================> "\/\/127.0.0.1\/athena-deals"
+	SEARCH 12:"%2F%2Fwww.theathenaworldwide.com" ================> "%2F%2F127.0.0.1%2Fathena-deals"
+	SEARCH 13:"https://127.0.0.1/athena-deals" ==================> "http://127.0.0.1/athena-deals"
+	SEARCH 14:"https:\/\/127.0.0.1\/athena-deals" ===============> "http:\/\/127.0.0.1\/athena-deals"
+	SEARCH 15:"https%3A%2F%2F127.0.0.1%2Fathena-deals" ==========> "http%3A%2F%2F127.0.0.1%2Fathena-deals"
+
+EVALUATE TABLE: "ipixqnjfcommentmeta"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ipixqnjfcomments"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ipixqnjfduplicator_packages"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ipixqnjflinks"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ipixqnjfoptions"_________________________________[ROWS:   436][PG:   1][SCAN:text columns]
+	SEARCH  1:"/homepages/37/d867365955/htdocs/clickandbuilds/eBayDeals" => "C:/work_space/athena-deals"
+	SEARCH  2:"\/homepages\/37\/d867365955\/htdocs\/clickandbuilds\/eBayDeals" => "C:\/work_space\/athena-deals"
+	SEARCH  3:"%2Fhomepages%2F37%2Fd867365955%2Fhtdocs%2Fclickandbuilds%2FeBayDeals" => "C%3A%2Fwork_space%2Fathena-deals"
+	SEARCH  4:"\homepages\37\d867365955\htdocs\clickandbuilds\eBayDeals" => "C:/work_space/athena-deals"
+	SEARCH  5:"\\homepages\\37\\d867365955\\htdocs\\clickandbuilds\\eBayDeals" => "C:\/work_space\/athena-deals"
+	SEARCH  6:"%5Chomepages%5C37%5Cd867365955%5Chtdocs%5Cclickandbuilds%5CeBayDeals" => "C%3A%2Fwork_space%2Fathena-deals"
+	SEARCH  7:"//theathenaworldwide.com" ========================> "//127.0.0.1/athena-deals"
+	SEARCH  8:"\/\/theathenaworldwide.com" ======================> "\/\/127.0.0.1\/athena-deals"
+	SEARCH  9:"%2F%2Ftheathenaworldwide.com" ====================> "%2F%2F127.0.0.1%2Fathena-deals"
+	SEARCH 10:"//www.theathenaworldwide.com" ====================> "//127.0.0.1/athena-deals"
+	SEARCH 11:"\/\/www.theathenaworldwide.com" ==================> "\/\/127.0.0.1\/athena-deals"
+	SEARCH 12:"%2F%2Fwww.theathenaworldwide.com" ================> "%2F%2F127.0.0.1%2Fathena-deals"
+	SEARCH 13:"https://127.0.0.1/athena-deals" ==================> "http://127.0.0.1/athena-deals"
+	SEARCH 14:"https:\/\/127.0.0.1\/athena-deals" ===============> "http:\/\/127.0.0.1\/athena-deals"
+	SEARCH 15:"https%3A%2F%2F127.0.0.1%2Fathena-deals" ==========> "http%3A%2F%2F127.0.0.1%2Fathena-deals"
+
+EVALUATE TABLE: "ipixqnjfpostmeta"________________________________[ROWS:  1412][PG:   1][SCAN:text columns]
+	SEARCH  1:"/homepages/37/d867365955/htdocs/clickandbuilds/eBayDeals" => "C:/work_space/athena-deals"
+	SEARCH  2:"\/homepages\/37\/d867365955\/htdocs\/clickandbuilds\/eBayDeals" => "C:\/work_space\/athena-deals"
+	SEARCH  3:"%2Fhomepages%2F37%2Fd867365955%2Fhtdocs%2Fclickandbuilds%2FeBayDeals" => "C%3A%2Fwork_space%2Fathena-deals"
+	SEARCH  4:"\homepages\37\d867365955\htdocs\clickandbuilds\eBayDeals" => "C:/work_space/athena-deals"
+	SEARCH  5:"\\homepages\\37\\d867365955\\htdocs\\clickandbuilds\\eBayDeals" => "C:\/work_space\/athena-deals"
+	SEARCH  6:"%5Chomepages%5C37%5Cd867365955%5Chtdocs%5Cclickandbuilds%5CeBayDeals" => "C%3A%2Fwork_space%2Fathena-deals"
+	SEARCH  7:"//theathenaworldwide.com" ========================> "//127.0.0.1/athena-deals"
+	SEARCH  8:"\/\/theathenaworldwide.com" ======================> "\/\/127.0.0.1\/athena-deals"
+	SEARCH  9:"%2F%2Ftheathenaworldwide.com" ====================> "%2F%2F127.0.0.1%2Fathena-deals"
+	SEARCH 10:"//www.theathenaworldwide.com" ====================> "//127.0.0.1/athena-deals"
+	SEARCH 11:"\/\/www.theathenaworldwide.com" ==================> "\/\/127.0.0.1\/athena-deals"
+	SEARCH 12:"%2F%2Fwww.theathenaworldwide.com" ================> "%2F%2F127.0.0.1%2Fathena-deals"
+	SEARCH 13:"https://127.0.0.1/athena-deals" ==================> "http://127.0.0.1/athena-deals"
+	SEARCH 14:"https:\/\/127.0.0.1\/athena-deals" ===============> "http:\/\/127.0.0.1\/athena-deals"
+	SEARCH 15:"https%3A%2F%2F127.0.0.1%2Fathena-deals" ==========> "http%3A%2F%2F127.0.0.1%2Fathena-deals"
+
+EVALUATE TABLE: "ipixqnjfposts"___________________________________[ROWS:   235][PG:   1][SCAN:text columns]
+	SEARCH  1:"/homepages/37/d867365955/htdocs/clickandbuilds/eBayDeals" => "C:/work_space/athena-deals"
+	SEARCH  2:"\/homepages\/37\/d867365955\/htdocs\/clickandbuilds\/eBayDeals" => "C:\/work_space\/athena-deals"
+	SEARCH  3:"%2Fhomepages%2F37%2Fd867365955%2Fhtdocs%2Fclickandbuilds%2FeBayDeals" => "C%3A%2Fwork_space%2Fathena-deals"
+	SEARCH  4:"\homepages\37\d867365955\htdocs\clickandbuilds\eBayDeals" => "C:/work_space/athena-deals"
+	SEARCH  5:"\\homepages\\37\\d867365955\\htdocs\\clickandbuilds\\eBayDeals" => "C:\/work_space\/athena-deals"
+	SEARCH  6:"%5Chomepages%5C37%5Cd867365955%5Chtdocs%5Cclickandbuilds%5CeBayDeals" => "C%3A%2Fwork_space%2Fathena-deals"
+	SEARCH  7:"//theathenaworldwide.com" ========================> "//127.0.0.1/athena-deals"
+	SEARCH  8:"\/\/theathenaworldwide.com" ======================> "\/\/127.0.0.1\/athena-deals"
+	SEARCH  9:"%2F%2Ftheathenaworldwide.com" ====================> "%2F%2F127.0.0.1%2Fathena-deals"
+	SEARCH 10:"//www.theathenaworldwide.com" ====================> "//127.0.0.1/athena-deals"
+	SEARCH 11:"\/\/www.theathenaworldwide.com" ==================> "\/\/127.0.0.1\/athena-deals"
+	SEARCH 12:"%2F%2Fwww.theathenaworldwide.com" ================> "%2F%2F127.0.0.1%2Fathena-deals"
+	SEARCH 13:"https://127.0.0.1/athena-deals" ==================> "http://127.0.0.1/athena-deals"
+	SEARCH 14:"https:\/\/127.0.0.1\/athena-deals" ===============> "http:\/\/127.0.0.1\/athena-deals"
+	SEARCH 15:"https%3A%2F%2F127.0.0.1%2Fathena-deals" ==========> "http%3A%2F%2F127.0.0.1%2Fathena-deals"
+
+EVALUATE TABLE: "ipixqnjfterm_relationships"______________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/homepages/37/d867365955/htdocs/clickandbuilds/eBayDeals" => "C:/work_space/athena-deals"
+	SEARCH  2:"\/homepages\/37\/d867365955\/htdocs\/clickandbuilds\/eBayDeals" => "C:\/work_space\/athena-deals"
+	SEARCH  3:"%2Fhomepages%2F37%2Fd867365955%2Fhtdocs%2Fclickandbuilds%2FeBayDeals" => "C%3A%2Fwork_space%2Fathena-deals"
+	SEARCH  4:"\homepages\37\d867365955\htdocs\clickandbuilds\eBayDeals" => "C:/work_space/athena-deals"
+	SEARCH  5:"\\homepages\\37\\d867365955\\htdocs\\clickandbuilds\\eBayDeals" => "C:\/work_space\/athena-deals"
+	SEARCH  6:"%5Chomepages%5C37%5Cd867365955%5Chtdocs%5Cclickandbuilds%5CeBayDeals" => "C%3A%2Fwork_space%2Fathena-deals"
+	SEARCH  7:"//theathenaworldwide.com" ========================> "//127.0.0.1/athena-deals"
+	SEARCH  8:"\/\/theathenaworldwide.com" ======================> "\/\/127.0.0.1\/athena-deals"
+	SEARCH  9:"%2F%2Ftheathenaworldwide.com" ====================> "%2F%2F127.0.0.1%2Fathena-deals"
+	SEARCH 10:"//www.theathenaworldwide.com" ====================> "//127.0.0.1/athena-deals"
+	SEARCH 11:"\/\/www.theathenaworldwide.com" ==================> "\/\/127.0.0.1\/athena-deals"
+	SEARCH 12:"%2F%2Fwww.theathenaworldwide.com" ================> "%2F%2F127.0.0.1%2Fathena-deals"
+	SEARCH 13:"https://127.0.0.1/athena-deals" ==================> "http://127.0.0.1/athena-deals"
+	SEARCH 14:"https:\/\/127.0.0.1\/athena-deals" ===============> "http:\/\/127.0.0.1\/athena-deals"
+	SEARCH 15:"https%3A%2F%2F127.0.0.1%2Fathena-deals" ==========> "http%3A%2F%2F127.0.0.1%2Fathena-deals"
+
+EVALUATE TABLE: "ipixqnjfterm_taxonomy"___________________________[ROWS:    17][PG:   1][SCAN:text columns]
+	SEARCH  1:"/homepages/37/d867365955/htdocs/clickandbuilds/eBayDeals" => "C:/work_space/athena-deals"
+	SEARCH  2:"\/homepages\/37\/d867365955\/htdocs\/clickandbuilds\/eBayDeals" => "C:\/work_space\/athena-deals"
+	SEARCH  3:"%2Fhomepages%2F37%2Fd867365955%2Fhtdocs%2Fclickandbuilds%2FeBayDeals" => "C%3A%2Fwork_space%2Fathena-deals"
+	SEARCH  4:"\homepages\37\d867365955\htdocs\clickandbuilds\eBayDeals" => "C:/work_space/athena-deals"
+	SEARCH  5:"\\homepages\\37\\d867365955\\htdocs\\clickandbuilds\\eBayDeals" => "C:\/work_space\/athena-deals"
+	SEARCH  6:"%5Chomepages%5C37%5Cd867365955%5Chtdocs%5Cclickandbuilds%5CeBayDeals" => "C%3A%2Fwork_space%2Fathena-deals"
+	SEARCH  7:"//theathenaworldwide.com" ========================> "//127.0.0.1/athena-deals"
+	SEARCH  8:"\/\/theathenaworldwide.com" ======================> "\/\/127.0.0.1\/athena-deals"
+	SEARCH  9:"%2F%2Ftheathenaworldwide.com" ====================> "%2F%2F127.0.0.1%2Fathena-deals"
+	SEARCH 10:"//www.theathenaworldwide.com" ====================> "//127.0.0.1/athena-deals"
+	SEARCH 11:"\/\/www.theathenaworldwide.com" ==================> "\/\/127.0.0.1\/athena-deals"
+	SEARCH 12:"%2F%2Fwww.theathenaworldwide.com" ================> "%2F%2F127.0.0.1%2Fathena-deals"
+	SEARCH 13:"https://127.0.0.1/athena-deals" ==================> "http://127.0.0.1/athena-deals"
+	SEARCH 14:"https:\/\/127.0.0.1\/athena-deals" ===============> "http:\/\/127.0.0.1\/athena-deals"
+	SEARCH 15:"https%3A%2F%2F127.0.0.1%2Fathena-deals" ==========> "http%3A%2F%2F127.0.0.1%2Fathena-deals"
+
+EVALUATE TABLE: "ipixqnjftermmeta"________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/homepages/37/d867365955/htdocs/clickandbuilds/eBayDeals" => "C:/work_space/athena-deals"
+	SEARCH  2:"\/homepages\/37\/d867365955\/htdocs\/clickandbuilds\/eBayDeals" => "C:\/work_space\/athena-deals"
+	SEARCH  3:"%2Fhomepages%2F37%2Fd867365955%2Fhtdocs%2Fclickandbuilds%2FeBayDeals" => "C%3A%2Fwork_space%2Fathena-deals"
+	SEARCH  4:"\homepages\37\d867365955\htdocs\clickandbuilds\eBayDeals" => "C:/work_space/athena-deals"
+	SEARCH  5:"\\homepages\\37\\d867365955\\htdocs\\clickandbuilds\\eBayDeals" => "C:\/work_space\/athena-deals"
+	SEARCH  6:"%5Chomepages%5C37%5Cd867365955%5Chtdocs%5Cclickandbuilds%5CeBayDeals" => "C%3A%2Fwork_space%2Fathena-deals"
+	SEARCH  7:"//theathenaworldwide.com" ========================> "//127.0.0.1/athena-deals"
+	SEARCH  8:"\/\/theathenaworldwide.com" ======================> "\/\/127.0.0.1\/athena-deals"
+	SEARCH  9:"%2F%2Ftheathenaworldwide.com" ====================> "%2F%2F127.0.0.1%2Fathena-deals"
+	SEARCH 10:"//www.theathenaworldwide.com" ====================> "//127.0.0.1/athena-deals"
+	SEARCH 11:"\/\/www.theathenaworldwide.com" ==================> "\/\/127.0.0.1\/athena-deals"
+	SEARCH 12:"%2F%2Fwww.theathenaworldwide.com" ================> "%2F%2F127.0.0.1%2Fathena-deals"
+	SEARCH 13:"https://127.0.0.1/athena-deals" ==================> "http://127.0.0.1/athena-deals"
+	SEARCH 14:"https:\/\/127.0.0.1\/athena-deals" ===============> "http:\/\/127.0.0.1\/athena-deals"
+	SEARCH 15:"https%3A%2F%2F127.0.0.1%2Fathena-deals" ==========> "http%3A%2F%2F127.0.0.1%2Fathena-deals"
+
+EVALUATE TABLE: "ipixqnjfterms"___________________________________[ROWS:    17][PG:   1][SCAN:text columns]
+	SEARCH  1:"/homepages/37/d867365955/htdocs/clickandbuilds/eBayDeals" => "C:/work_space/athena-deals"
+	SEARCH  2:"\/homepages\/37\/d867365955\/htdocs\/clickandbuilds\/eBayDeals" => "C:\/work_space\/athena-deals"
+	SEARCH  3:"%2Fhomepages%2F37%2Fd867365955%2Fhtdocs%2Fclickandbuilds%2FeBayDeals" => "C%3A%2Fwork_space%2Fathena-deals"
+	SEARCH  4:"\homepages\37\d867365955\htdocs\clickandbuilds\eBayDeals" => "C:/work_space/athena-deals"
+	SEARCH  5:"\\homepages\\37\\d867365955\\htdocs\\clickandbuilds\\eBayDeals" => "C:\/work_space\/athena-deals"
+	SEARCH  6:"%5Chomepages%5C37%5Cd867365955%5Chtdocs%5Cclickandbuilds%5CeBayDeals" => "C%3A%2Fwork_space%2Fathena-deals"
+	SEARCH  7:"//theathenaworldwide.com" ========================> "//127.0.0.1/athena-deals"
+	SEARCH  8:"\/\/theathenaworldwide.com" ======================> "\/\/127.0.0.1\/athena-deals"
+	SEARCH  9:"%2F%2Ftheathenaworldwide.com" ====================> "%2F%2F127.0.0.1%2Fathena-deals"
+	SEARCH 10:"//www.theathenaworldwide.com" ====================> "//127.0.0.1/athena-deals"
+	SEARCH 11:"\/\/www.theathenaworldwide.com" ==================> "\/\/127.0.0.1\/athena-deals"
+	SEARCH 12:"%2F%2Fwww.theathenaworldwide.com" ================> "%2F%2F127.0.0.1%2Fathena-deals"
+	SEARCH 13:"https://127.0.0.1/athena-deals" ==================> "http://127.0.0.1/athena-deals"
+	SEARCH 14:"https:\/\/127.0.0.1\/athena-deals" ===============> "http:\/\/127.0.0.1\/athena-deals"
+	SEARCH 15:"https%3A%2F%2F127.0.0.1%2Fathena-deals" ==========> "http%3A%2F%2F127.0.0.1%2Fathena-deals"
+
+EVALUATE TABLE: "ipixqnjfusermeta"________________________________[ROWS:    30][PG:   1][SCAN:text columns]
+	SEARCH  1:"/homepages/37/d867365955/htdocs/clickandbuilds/eBayDeals" => "C:/work_space/athena-deals"
+	SEARCH  2:"\/homepages\/37\/d867365955\/htdocs\/clickandbuilds\/eBayDeals" => "C:\/work_space\/athena-deals"
+	SEARCH  3:"%2Fhomepages%2F37%2Fd867365955%2Fhtdocs%2Fclickandbuilds%2FeBayDeals" => "C%3A%2Fwork_space%2Fathena-deals"
+	SEARCH  4:"\homepages\37\d867365955\htdocs\clickandbuilds\eBayDeals" => "C:/work_space/athena-deals"
+	SEARCH  5:"\\homepages\\37\\d867365955\\htdocs\\clickandbuilds\\eBayDeals" => "C:\/work_space\/athena-deals"
+	SEARCH  6:"%5Chomepages%5C37%5Cd867365955%5Chtdocs%5Cclickandbuilds%5CeBayDeals" => "C%3A%2Fwork_space%2Fathena-deals"
+	SEARCH  7:"//theathenaworldwide.com" ========================> "//127.0.0.1/athena-deals"
+	SEARCH  8:"\/\/theathenaworldwide.com" ======================> "\/\/127.0.0.1\/athena-deals"
+	SEARCH  9:"%2F%2Ftheathenaworldwide.com" ====================> "%2F%2F127.0.0.1%2Fathena-deals"
+	SEARCH 10:"//www.theathenaworldwide.com" ====================> "//127.0.0.1/athena-deals"
+	SEARCH 11:"\/\/www.theathenaworldwide.com" ==================> "\/\/127.0.0.1\/athena-deals"
+	SEARCH 12:"%2F%2Fwww.theathenaworldwide.com" ================> "%2F%2F127.0.0.1%2Fathena-deals"
+	SEARCH 13:"https://127.0.0.1/athena-deals" ==================> "http://127.0.0.1/athena-deals"
+	SEARCH 14:"https:\/\/127.0.0.1\/athena-deals" ===============> "http:\/\/127.0.0.1\/athena-deals"
+	SEARCH 15:"https%3A%2F%2F127.0.0.1%2Fathena-deals" ==========> "http%3A%2F%2F127.0.0.1%2Fathena-deals"
+
+EVALUATE TABLE: "ipixqnjfusers"___________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/homepages/37/d867365955/htdocs/clickandbuilds/eBayDeals" => "C:/work_space/athena-deals"
+	SEARCH  2:"\/homepages\/37\/d867365955\/htdocs\/clickandbuilds\/eBayDeals" => "C:\/work_space\/athena-deals"
+	SEARCH  3:"%2Fhomepages%2F37%2Fd867365955%2Fhtdocs%2Fclickandbuilds%2FeBayDeals" => "C%3A%2Fwork_space%2Fathena-deals"
+	SEARCH  4:"\homepages\37\d867365955\htdocs\clickandbuilds\eBayDeals" => "C:/work_space/athena-deals"
+	SEARCH  5:"\\homepages\\37\\d867365955\\htdocs\\clickandbuilds\\eBayDeals" => "C:\/work_space\/athena-deals"
+	SEARCH  6:"%5Chomepages%5C37%5Cd867365955%5Chtdocs%5Cclickandbuilds%5CeBayDeals" => "C%3A%2Fwork_space%2Fathena-deals"
+	SEARCH  7:"//theathenaworldwide.com" ========================> "//127.0.0.1/athena-deals"
+	SEARCH  8:"\/\/theathenaworldwide.com" ======================> "\/\/127.0.0.1\/athena-deals"
+	SEARCH  9:"%2F%2Ftheathenaworldwide.com" ====================> "%2F%2F127.0.0.1%2Fathena-deals"
+	SEARCH 10:"//www.theathenaworldwide.com" ====================> "//127.0.0.1/athena-deals"
+	SEARCH 11:"\/\/www.theathenaworldwide.com" ==================> "\/\/127.0.0.1\/athena-deals"
+	SEARCH 12:"%2F%2Fwww.theathenaworldwide.com" ================> "%2F%2F127.0.0.1%2Fathena-deals"
+	SEARCH 13:"https://127.0.0.1/athena-deals" ==================> "http://127.0.0.1/athena-deals"
+	SEARCH 14:"https:\/\/127.0.0.1\/athena-deals" ===============> "http:\/\/127.0.0.1\/athena-deals"
+	SEARCH 15:"https%3A%2F%2F127.0.0.1%2Fathena-deals" ==========> "http%3A%2F%2F127.0.0.1%2Fathena-deals"
+
+EVALUATE TABLE: "ipixqnjfwc_admin_note_actions"___________________[ROWS:    40][PG:   1][SCAN:text columns]
+	SEARCH  1:"/homepages/37/d867365955/htdocs/clickandbuilds/eBayDeals" => "C:/work_space/athena-deals"
+	SEARCH  2:"\/homepages\/37\/d867365955\/htdocs\/clickandbuilds\/eBayDeals" => "C:\/work_space\/athena-deals"
+	SEARCH  3:"%2Fhomepages%2F37%2Fd867365955%2Fhtdocs%2Fclickandbuilds%2FeBayDeals" => "C%3A%2Fwork_space%2Fathena-deals"
+	SEARCH  4:"\homepages\37\d867365955\htdocs\clickandbuilds\eBayDeals" => "C:/work_space/athena-deals"
+	SEARCH  5:"\\homepages\\37\\d867365955\\htdocs\\clickandbuilds\\eBayDeals" => "C:\/work_space\/athena-deals"
+	SEARCH  6:"%5Chomepages%5C37%5Cd867365955%5Chtdocs%5Cclickandbuilds%5CeBayDeals" => "C%3A%2Fwork_space%2Fathena-deals"
+	SEARCH  7:"//theathenaworldwide.com" ========================> "//127.0.0.1/athena-deals"
+	SEARCH  8:"\/\/theathenaworldwide.com" ======================> "\/\/127.0.0.1\/athena-deals"
+	SEARCH  9:"%2F%2Ftheathenaworldwide.com" ====================> "%2F%2F127.0.0.1%2Fathena-deals"
+	SEARCH 10:"//www.theathenaworldwide.com" ====================> "//127.0.0.1/athena-deals"
+	SEARCH 11:"\/\/www.theathenaworldwide.com" ==================> "\/\/127.0.0.1\/athena-deals"
+	SEARCH 12:"%2F%2Fwww.theathenaworldwide.com" ================> "%2F%2F127.0.0.1%2Fathena-deals"
+	SEARCH 13:"https://127.0.0.1/athena-deals" ==================> "http://127.0.0.1/athena-deals"
+	SEARCH 14:"https:\/\/127.0.0.1\/athena-deals" ===============> "http:\/\/127.0.0.1\/athena-deals"
+	SEARCH 15:"https%3A%2F%2F127.0.0.1%2Fathena-deals" ==========> "http%3A%2F%2F127.0.0.1%2Fathena-deals"
+
+EVALUATE TABLE: "ipixqnjfwc_admin_notes"__________________________[ROWS:    39][PG:   1][SCAN:text columns]
+	SEARCH  1:"/homepages/37/d867365955/htdocs/clickandbuilds/eBayDeals" => "C:/work_space/athena-deals"
+	SEARCH  2:"\/homepages\/37\/d867365955\/htdocs\/clickandbuilds\/eBayDeals" => "C:\/work_space\/athena-deals"
+	SEARCH  3:"%2Fhomepages%2F37%2Fd867365955%2Fhtdocs%2Fclickandbuilds%2FeBayDeals" => "C%3A%2Fwork_space%2Fathena-deals"
+	SEARCH  4:"\homepages\37\d867365955\htdocs\clickandbuilds\eBayDeals" => "C:/work_space/athena-deals"
+	SEARCH  5:"\\homepages\\37\\d867365955\\htdocs\\clickandbuilds\\eBayDeals" => "C:\/work_space\/athena-deals"
+	SEARCH  6:"%5Chomepages%5C37%5Cd867365955%5Chtdocs%5Cclickandbuilds%5CeBayDeals" => "C%3A%2Fwork_space%2Fathena-deals"
+	SEARCH  7:"//theathenaworldwide.com" ========================> "//127.0.0.1/athena-deals"
+	SEARCH  8:"\/\/theathenaworldwide.com" ======================> "\/\/127.0.0.1\/athena-deals"
+	SEARCH  9:"%2F%2Ftheathenaworldwide.com" ====================> "%2F%2F127.0.0.1%2Fathena-deals"
+	SEARCH 10:"//www.theathenaworldwide.com" ====================> "//127.0.0.1/athena-deals"
+	SEARCH 11:"\/\/www.theathenaworldwide.com" ==================> "\/\/127.0.0.1\/athena-deals"
+	SEARCH 12:"%2F%2Fwww.theathenaworldwide.com" ================> "%2F%2F127.0.0.1%2Fathena-deals"
+	SEARCH 13:"https://127.0.0.1/athena-deals" ==================> "http://127.0.0.1/athena-deals"
+	SEARCH 14:"https:\/\/127.0.0.1\/athena-deals" ===============> "http:\/\/127.0.0.1\/athena-deals"
+	SEARCH 15:"https%3A%2F%2F127.0.0.1%2Fathena-deals" ==========> "http%3A%2F%2F127.0.0.1%2Fathena-deals"
+
+EVALUATE TABLE: "ipixqnjfwc_category_lookup"______________________[ROWS:     9][PG:   1][SCAN:text columns]
+	SEARCH  1:"/homepages/37/d867365955/htdocs/clickandbuilds/eBayDeals" => "C:/work_space/athena-deals"
+	SEARCH  2:"\/homepages\/37\/d867365955\/htdocs\/clickandbuilds\/eBayDeals" => "C:\/work_space\/athena-deals"
+	SEARCH  3:"%2Fhomepages%2F37%2Fd867365955%2Fhtdocs%2Fclickandbuilds%2FeBayDeals" => "C%3A%2Fwork_space%2Fathena-deals"
+	SEARCH  4:"\homepages\37\d867365955\htdocs\clickandbuilds\eBayDeals" => "C:/work_space/athena-deals"
+	SEARCH  5:"\\homepages\\37\\d867365955\\htdocs\\clickandbuilds\\eBayDeals" => "C:\/work_space\/athena-deals"
+	SEARCH  6:"%5Chomepages%5C37%5Cd867365955%5Chtdocs%5Cclickandbuilds%5CeBayDeals" => "C%3A%2Fwork_space%2Fathena-deals"
+	SEARCH  7:"//theathenaworldwide.com" ========================> "//127.0.0.1/athena-deals"
+	SEARCH  8:"\/\/theathenaworldwide.com" ======================> "\/\/127.0.0.1\/athena-deals"
+	SEARCH  9:"%2F%2Ftheathenaworldwide.com" ====================> "%2F%2F127.0.0.1%2Fathena-deals"
+	SEARCH 10:"//www.theathenaworldwide.com" ====================> "//127.0.0.1/athena-deals"
+	SEARCH 11:"\/\/www.theathenaworldwide.com" ==================> "\/\/127.0.0.1\/athena-deals"
+	SEARCH 12:"%2F%2Fwww.theathenaworldwide.com" ================> "%2F%2F127.0.0.1%2Fathena-deals"
+	SEARCH 13:"https://127.0.0.1/athena-deals" ==================> "http://127.0.0.1/athena-deals"
+	SEARCH 14:"https:\/\/127.0.0.1\/athena-deals" ===============> "http:\/\/127.0.0.1\/athena-deals"
+	SEARCH 15:"https%3A%2F%2F127.0.0.1%2Fathena-deals" ==========> "http%3A%2F%2F127.0.0.1%2Fathena-deals"
+
+EVALUATE TABLE: "ipixqnjfwc_customer_lookup"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ipixqnjfwc_download_log"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ipixqnjfwc_order_coupon_lookup"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ipixqnjfwc_order_product_lookup"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ipixqnjfwc_order_stats"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ipixqnjfwc_order_tax_lookup"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ipixqnjfwc_product_meta_lookup"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ipixqnjfwc_reserved_stock"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ipixqnjfwc_tax_rate_classes"_____________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/homepages/37/d867365955/htdocs/clickandbuilds/eBayDeals" => "C:/work_space/athena-deals"
+	SEARCH  2:"\/homepages\/37\/d867365955\/htdocs\/clickandbuilds\/eBayDeals" => "C:\/work_space\/athena-deals"
+	SEARCH  3:"%2Fhomepages%2F37%2Fd867365955%2Fhtdocs%2Fclickandbuilds%2FeBayDeals" => "C%3A%2Fwork_space%2Fathena-deals"
+	SEARCH  4:"\homepages\37\d867365955\htdocs\clickandbuilds\eBayDeals" => "C:/work_space/athena-deals"
+	SEARCH  5:"\\homepages\\37\\d867365955\\htdocs\\clickandbuilds\\eBayDeals" => "C:\/work_space\/athena-deals"
+	SEARCH  6:"%5Chomepages%5C37%5Cd867365955%5Chtdocs%5Cclickandbuilds%5CeBayDeals" => "C%3A%2Fwork_space%2Fathena-deals"
+	SEARCH  7:"//theathenaworldwide.com" ========================> "//127.0.0.1/athena-deals"
+	SEARCH  8:"\/\/theathenaworldwide.com" ======================> "\/\/127.0.0.1\/athena-deals"
+	SEARCH  9:"%2F%2Ftheathenaworldwide.com" ====================> "%2F%2F127.0.0.1%2Fathena-deals"
+	SEARCH 10:"//www.theathenaworldwide.com" ====================> "//127.0.0.1/athena-deals"
+	SEARCH 11:"\/\/www.theathenaworldwide.com" ==================> "\/\/127.0.0.1\/athena-deals"
+	SEARCH 12:"%2F%2Fwww.theathenaworldwide.com" ================> "%2F%2F127.0.0.1%2Fathena-deals"
+	SEARCH 13:"https://127.0.0.1/athena-deals" ==================> "http://127.0.0.1/athena-deals"
+	SEARCH 14:"https:\/\/127.0.0.1\/athena-deals" ===============> "http:\/\/127.0.0.1\/athena-deals"
+	SEARCH 15:"https%3A%2F%2F127.0.0.1%2Fathena-deals" ==========> "http%3A%2F%2F127.0.0.1%2Fathena-deals"
+
+EVALUATE TABLE: "ipixqnjfwc_webhooks"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ipixqnjfwoocommerce_api_keys"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ipixqnjfwoocommerce_attribute_taxonomies"________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ipixqnjfwoocommerce_downloadable_product_permissions"[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ipixqnjfwoocommerce_log"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ipixqnjfwoocommerce_order_itemmeta"______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ipixqnjfwoocommerce_order_items"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ipixqnjfwoocommerce_payment_tokenmeta"___________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ipixqnjfwoocommerce_payment_tokens"______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ipixqnjfwoocommerce_sessions"____________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/homepages/37/d867365955/htdocs/clickandbuilds/eBayDeals" => "C:/work_space/athena-deals"
+	SEARCH  2:"\/homepages\/37\/d867365955\/htdocs\/clickandbuilds\/eBayDeals" => "C:\/work_space\/athena-deals"
+	SEARCH  3:"%2Fhomepages%2F37%2Fd867365955%2Fhtdocs%2Fclickandbuilds%2FeBayDeals" => "C%3A%2Fwork_space%2Fathena-deals"
+	SEARCH  4:"\homepages\37\d867365955\htdocs\clickandbuilds\eBayDeals" => "C:/work_space/athena-deals"
+	SEARCH  5:"\\homepages\\37\\d867365955\\htdocs\\clickandbuilds\\eBayDeals" => "C:\/work_space\/athena-deals"
+	SEARCH  6:"%5Chomepages%5C37%5Cd867365955%5Chtdocs%5Cclickandbuilds%5CeBayDeals" => "C%3A%2Fwork_space%2Fathena-deals"
+	SEARCH  7:"//theathenaworldwide.com" ========================> "//127.0.0.1/athena-deals"
+	SEARCH  8:"\/\/theathenaworldwide.com" ======================> "\/\/127.0.0.1\/athena-deals"
+	SEARCH  9:"%2F%2Ftheathenaworldwide.com" ====================> "%2F%2F127.0.0.1%2Fathena-deals"
+	SEARCH 10:"//www.theathenaworldwide.com" ====================> "//127.0.0.1/athena-deals"
+	SEARCH 11:"\/\/www.theathenaworldwide.com" ==================> "\/\/127.0.0.1\/athena-deals"
+	SEARCH 12:"%2F%2Fwww.theathenaworldwide.com" ================> "%2F%2F127.0.0.1%2Fathena-deals"
+	SEARCH 13:"https://127.0.0.1/athena-deals" ==================> "http://127.0.0.1/athena-deals"
+	SEARCH 14:"https:\/\/127.0.0.1\/athena-deals" ===============> "http:\/\/127.0.0.1\/athena-deals"
+	SEARCH 15:"https%3A%2F%2F127.0.0.1%2Fathena-deals" ==========> "http%3A%2F%2F127.0.0.1%2Fathena-deals"
+
+EVALUATE TABLE: "ipixqnjfwoocommerce_shipping_zone_locations"_____[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ipixqnjfwoocommerce_shipping_zone_methods"_______[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ipixqnjfwoocommerce_shipping_zones"______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ipixqnjfwoocommerce_tax_rate_locations"__________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ipixqnjfwoocommerce_tax_rates"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ipixqnjfwpforms_tasks_meta"______________________[ROWS:    18][PG:   1][SCAN:text columns]
+	SEARCH  1:"/homepages/37/d867365955/htdocs/clickandbuilds/eBayDeals" => "C:/work_space/athena-deals"
+	SEARCH  2:"\/homepages\/37\/d867365955\/htdocs\/clickandbuilds\/eBayDeals" => "C:\/work_space\/athena-deals"
+	SEARCH  3:"%2Fhomepages%2F37%2Fd867365955%2Fhtdocs%2Fclickandbuilds%2FeBayDeals" => "C%3A%2Fwork_space%2Fathena-deals"
+	SEARCH  4:"\homepages\37\d867365955\htdocs\clickandbuilds\eBayDeals" => "C:/work_space/athena-deals"
+	SEARCH  5:"\\homepages\\37\\d867365955\\htdocs\\clickandbuilds\\eBayDeals" => "C:\/work_space\/athena-deals"
+	SEARCH  6:"%5Chomepages%5C37%5Cd867365955%5Chtdocs%5Cclickandbuilds%5CeBayDeals" => "C%3A%2Fwork_space%2Fathena-deals"
+	SEARCH  7:"//theathenaworldwide.com" ========================> "//127.0.0.1/athena-deals"
+	SEARCH  8:"\/\/theathenaworldwide.com" ======================> "\/\/127.0.0.1\/athena-deals"
+	SEARCH  9:"%2F%2Ftheathenaworldwide.com" ====================> "%2F%2F127.0.0.1%2Fathena-deals"
+	SEARCH 10:"//www.theathenaworldwide.com" ====================> "//127.0.0.1/athena-deals"
+	SEARCH 11:"\/\/www.theathenaworldwide.com" ==================> "\/\/127.0.0.1\/athena-deals"
+	SEARCH 12:"%2F%2Fwww.theathenaworldwide.com" ================> "%2F%2F127.0.0.1%2Fathena-deals"
+	SEARCH 13:"https://127.0.0.1/athena-deals" ==================> "http://127.0.0.1/athena-deals"
+	SEARCH 14:"https:\/\/127.0.0.1\/athena-deals" ===============> "http:\/\/127.0.0.1\/athena-deals"
+	SEARCH 15:"https%3A%2F%2F127.0.0.1%2Fathena-deals" ==========> "http%3A%2F%2F127.0.0.1%2Fathena-deals"
+--------------------------------------
+SCANNED:	Tables:51 	|	 Rows:2492 	|	 Cells:15724 
+UPDATED:	Tables:6 	|	 Rows:401 	|	 Cells:554 
+ERRORS:		0 
+RUNTIME:	1.088500 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 08:56:55 - RUNTIME: 1.2626 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================
